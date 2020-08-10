@@ -1,0 +1,18 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 800px;
+  margin: auto;
+}
+input,
+button {
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 7px;
+}
+textarea.disabled {
+  background-color: rgb(223, 223, 223);
+}
